@@ -1,3 +1,5 @@
+@import "settings";
+
 $base-margin-vertical: 0;
 $base-heading-margin-top: 0;
 $base-list-padding-left: 0;
@@ -58,6 +60,14 @@ $sec-ff: 'Montserrat', sans-serif;
     font-size: toRem(14px);
     line-height: 49px;
     transition: background-color 0.25s ease-in-out;
+
+    @include vw-md-down {
+        padding-x: 29px;
+    }
+
+    @include vw-sm-down{
+        padding-x: 40px;
+    }
 }
 
 @import "~uikit/src/scss/uikit-theme.scss";

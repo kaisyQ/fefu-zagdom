@@ -19,6 +19,7 @@ $bold: 700;
 
 /* Base */
 
+@import "./media.scss";
 @import "./uikit.scss";
 @import "../layouts/base.scss";
 
@@ -31,4 +32,5 @@ $bold: 700;
 
 @import "../components/header/header.scss";
 @import "../components/site-nav/site-nav.scss";
+@import "../components/contacts/contacts.scss";
 @import "../components/footer/footer.scss";
