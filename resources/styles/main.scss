@@ -1,3 +1,5 @@
+/* Variables */
+
 $blck: #000;
 $gray: #666;
 $l-gray: #C6C6C6;
@@ -9,7 +11,24 @@ $reg: 400;
 $med: 500;
 $bold: 700;
 
+/* Functions */
 
+@function toRem($size) {
+   @return $size / 16px * 1rem;
+}
+
+/* Base */
 
 @import "./uikit.scss";
 @import "../layouts/base.scss";
+
+
+/* Other */
+@import "./elements.scss";
+
+
+/* Components */
+
+@import "../components/header/header.scss";
+@import "../components/site-nav/site-nav.scss";
+@import "../components/footer/footer.scss";

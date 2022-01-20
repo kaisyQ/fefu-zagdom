@@ -50,4 +50,14 @@ $sec-ff: 'Montserrat', sans-serif;
     transition: color 0.25s ease-in-out;
 }
 
+@mixin hook-button {
+    padding-x: 40px;
+    border-radius: 10px;
+    font-family: $prm-ff;
+    font-weight: $med;
+    font-size: toRem(14px);
+    line-height: 49px;
+    transition: background-color 0.25s ease-in-out;
+}
+
 @import "~uikit/src/scss/uikit-theme.scss";
