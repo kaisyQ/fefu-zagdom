@@ -70,4 +70,8 @@ $sec-ff: 'Montserrat', sans-serif;
     }
 }
 
+@mixin hook-button-secondary {
+    border: 1px solid;
+}
+
 @import "~uikit/src/scss/uikit-theme.scss";

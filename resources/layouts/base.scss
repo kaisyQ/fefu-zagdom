@@ -25,6 +25,16 @@
             padding-y: 40px 80px;
          }
       }
+
+      &--projects {
+         padding-y: 92px;
+
+         background: $l-green;
+
+         @include vw-sm-down {
+            padding-y: 80px;
+         }
+      }
    }
 }
 
